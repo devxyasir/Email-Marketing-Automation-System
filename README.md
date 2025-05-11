@@ -85,3 +85,10 @@ The application logs all activities to `email_sender.log`, including:
 - PyQt6
 - MongoDB
 - Other dependencies listed in requirements.txt
+
+## Developer Credits
+
+This application was developed and maintained by **Muhammd Yasir**.  
+For licensing inquiries, support, or custom modifications, contact:  
+📧 **devxyasir@gmail.com**  
+🔗 [GitHub Profile](https://github.com/devxyasir)
