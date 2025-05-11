@@ -1,0 +1,126 @@
+/* Admin Layout */
+.admin-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.sidebar {
+  background-color: #f8f9fa;
+  padding: 20px 15px;
+  min-height: calc(100vh - 140px);
+  border-right: 1px solid #dee2e6;
+}
+
+.sidebar .nav-link {
+  color: #495057;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sidebar .nav-link:hover,
+.sidebar .nav-link.active {
+  background-color: #e9ecef;
+  color: #007bff;
+}
+
+.page-title {
+  margin-bottom: 25px;
+  border-bottom: 1px solid #dee2e6;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Cards and tables */
+.card {
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+.card-header {
+  background-color: #f8f9fa;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.table th {
+  font-weight: 600;
+  background-color: #f8f9fa;
+}
+
+/* Stats cards on dashboard */
+.stats-card {
+  text-align: center;
+  padding: 15px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  border: 1px solid #dee2e6;
+  background-color: white;
+}
+
+.stats-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.stats-card .icon {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.stats-card .number {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.stats-card .label {
+  color: #6c757d;
+  font-size: 1rem;
+}
+
+/* Badge styling */
+.badge-active {
+  background-color: #28a745 !important;
+}
+
+.badge-expired {
+  background-color: #dc3545 !important;
+}
+
+.badge-pending {
+  background-color: #ffc107 !important;
+  color: #212529 !important;
+}
+
+/* Buttons and actions */
+.btn-icon {
+  padding: 0.25rem 0.5rem;
+  margin-left: 5px;
+}
+
+.action-buttons {
+  white-space: nowrap;
+}
+
+/* Form elements */
+.form-label {
+  font-weight: 500;
+}
+
+.form-text {
+  color: #6c757d;
+}

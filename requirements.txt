@@ -1,0 +1,6 @@
+PyQt6
+pymongo
+python-dotenv
+cryptography
+pandas
+wmi

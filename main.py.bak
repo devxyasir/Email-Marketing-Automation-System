@@ -1,0 +1,124 @@
+import sys
+import os
+import wmi
+import hashlib
+from PyQt6.QtWidgets import (QApplication, QMainWindow, QWidget, QVBoxLayout, 
+                            QStackedWidget, QMessageBox)
+from PyQt6.QtCore import Qt
+from dotenv import load_dotenv
+from datetime import datetime
+import pymongo
+from cryptography.fernet import Fernet
+import logging
+
+# Configure logging
+logging.basicConfig(
+    filename='email_sender.log',
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
+
+class MainWindow(QMainWindow):
+    def __init__(self):
+        super().__init__()
+        self.setWindowTitle("Email Sender Pro")
+        self.setMinimumSize(800, 600)
+        
+        # Initialize MongoDB connection
+        self.init_database()
+        
+        # Check license before proceeding
+        if not self.check_license():
+            QMessageBox.critical(self, "License Error", 
+                               "Invalid or expired license. Please contact support.")
+            sys.exit()
+            
+        self.init_ui()
+    
+    def init_database(self):
+        try:
+            # Load MongoDB connection string from environment variable
+            load_dotenv()
+            mongo_uri = os.getenv('MONGODB_URI')
+            if not mongo_uri:
+                raise ValueError("MongoDB URI not found in environment variables")
+            
+            self.client = pymongo.MongoClient(mongo_uri)
+            self.db = self.client['email_sender']
+            logging.info("Database connection established successfully")
+        except Exception as e:
+            logging.error(f"Database connection error: {str(e)}")
+            QMessageBox.critical(self, "Error", "Failed to connect to database")
+            sys.exit()
+    
+    def get_hardware_id(self):
+        """Generate a unique hardware ID using WMI"""
+        try:
+            c = wmi.WMI()
+            system_info = c.Win32_ComputerSystemProduct()[0]
+            cpu_info = c.Win32_Processor()[0]
+            
+            # Combine system UUID and CPU ID
+            hardware_string = f"{system_info.UUID}{cpu_info.ProcessorId}"
+            return hashlib.sha256(hardware_string.encode()).hexdigest()
+        except Exception as e:
+            logging.error(f"Error getting hardware ID: {str(e)}")
+            return None
+    
+    def check_license(self):
+        """Verify license validity against MongoDB database"""
+        try:
+            hardware_id = self.get_hardware_id()
+            if not hardware_id:
+                return False
+            
+            license_data = self.db.licenses.find_one({"hardware_id": hardware_id})
+            if not license_data:
+                # Show hardware ID if license not found
+                QMessageBox.information(
+                    self,
+                    "License Required",
+                    f"Your Hardware ID is:\n{hardware_id}\n\nPlease provide this ID to the developer."
+                )
+                return False
+            
+            expiry_date = license_data.get('expiry_date')
+            if not expiry_date or datetime.now() > expiry_date:
+                # Delete expired license
+                self.db.licenses.delete_one({"hardware_id": hardware_id})
+                return False
+                
+            return True
+            
+        except Exception as e:
+            logging.error(f"License check error: {str(e)}")
+            return False
+    
+    def init_ui(self):
+        """Initialize the main UI components"""
+        central_widget = QWidget()
+        self.setCentralWidget(central_widget)
+        
+        layout = QVBoxLayout(central_widget)
+        
+        # Create stacked widget for multiple pages
+        self.stacked_widget = QStackedWidget()
+        layout.addWidget(self.stacked_widget)
+        
+        # Initialize pages (will be implemented in separate files)
+        self.init_pages()
+    
+    def init_pages(self):
+        """Initialize different pages of the application"""
+        # To be implemented: Email configuration, template editor, and sending pages
+        pass
+
+if __name__ == '__main__':
+    app = QApplication(sys.argv)
+    
+    # Set application style
+    app.setStyle('Fusion')
+    
+    window = MainWindow()
+    window.show()
+    sys.exit(app.exec())

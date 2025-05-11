@@ -1,0 +1,221 @@
+2025-04-01 15:28:42,008 - __main__ - INFO - Valid license found. License is valid
+2025-04-01 15:28:43,620 - root - INFO - Successfully connected to settings database
+2025-04-01 15:28:47,134 - root - INFO - Successfully connected to settings database
+2025-04-01 15:28:51,087 - root - INFO - Successfully connected to settings database
+2025-04-01 15:28:56,745 - root - INFO - Successfully connected to settings database
+2025-04-01 15:29:06,571 - root - INFO - Successfully connected to settings database
+2025-04-01 15:29:23,219 - root - INFO - Successfully connected to settings database
+2025-04-01 15:33:50,754 - __main__ - INFO - Valid license found. License is valid
+2025-04-01 15:33:51,319 - root - INFO - Successfully connected to settings database
+2025-04-01 15:33:54,434 - root - INFO - Successfully connected to settings database
+2025-04-01 15:33:56,429 - root - INFO - Successfully connected to settings database
+2025-04-01 16:30:26,054 - __main__ - INFO - Valid license found. License is valid
+2025-04-01 16:30:31,622 - root - INFO - Successfully connected to settings database
+2025-04-01 16:30:33,697 - root - INFO - Successfully connected to settings database
+2025-04-01 16:30:35,923 - root - INFO - Successfully connected to settings database
+2025-04-01 16:50:24,117 - __main__ - INFO - Valid license found. License is valid
+2025-04-01 16:50:30,597 - root - INFO - Successfully connected to settings database
+2025-04-01 16:50:38,186 - root - ERROR - Error decrypting password: 
+2025-04-01 16:50:42,340 - root - INFO - Successfully connected to settings database
+2025-04-01 16:50:53,415 - root - ERROR - Error decrypting password: 
+2025-04-01 16:50:54,780 - root - INFO - Successfully connected to settings database
+2025-04-01 16:56:04,131 - __main__ - INFO - Valid license found. License is valid
+2025-04-01 16:56:08,955 - root - INFO - Successfully connected to settings database
+2025-04-01 16:56:11,169 - root - ERROR - Error decrypting password: 
+2025-04-01 16:56:11,525 - root - INFO - Successfully connected to settings database
+2025-04-01 16:56:13,562 - root - ERROR - Error decrypting password: 
+2025-04-01 16:56:14,047 - root - INFO - Successfully connected to settings database
+2025-04-01 16:56:39,140 - root - INFO - Updated SMTP settings for hardware ID: 57185451966697
+2025-04-01 17:02:42,393 - __main__ - INFO - Valid license found. License is valid
+2025-04-01 17:02:43,275 - root - INFO - Successfully connected to settings database
+2025-04-01 17:02:46,042 - root - INFO - Successfully connected to settings database
+2025-04-01 17:02:48,750 - root - INFO - Successfully connected to settings database
+2025-04-01 17:06:30,897 - __main__ - INFO - Valid license found. License is valid
+2025-04-01 17:06:32,183 - root - INFO - Successfully connected to settings database
+2025-04-01 17:06:35,062 - root - INFO - Successfully connected to settings database
+2025-04-01 17:06:38,531 - root - INFO - Successfully connected to settings database
+2025-04-01 17:13:38,335 - __main__ - INFO - Valid license found. License is valid
+2025-04-01 17:13:40,838 - root - INFO - Successfully connected to settings database
+2025-04-01 17:13:43,628 - root - INFO - Loaded email settings for lovelyyasir05@gmail.com from database
+2025-04-01 17:13:45,167 - root - INFO - Successfully connected to settings database
+2025-04-01 17:13:48,348 - root - INFO - Loaded email settings for lovelyyasir05@gmail.com from database
+2025-04-01 17:13:49,103 - root - INFO - Successfully connected to settings database
+2025-04-01 17:15:02,792 - root - INFO - Saving email config for lovelyyasir05@gmail.com using smtp.gmail.com
+2025-04-01 17:15:05,572 - root - INFO - Updated SMTP settings for hardware ID: 57185451966697
+2025-04-01 17:38:47,383 - root - ERROR - Error checking hardware ID in database: cluster0-shard-00-02.e9lk1.mongodb.net:27017: timed out (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),cluster0-shard-00-01.e9lk1.mongodb.net:27017: timed out (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),cluster0-shard-00-00.e9lk1.mongodb.net:27017: timed out (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 67ebde39a086f849937bd021, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('cluster0-shard-00-00.e9lk1.mongodb.net', 27017) server_type: Unknown, rtt: None, error=NetworkTimeout('cluster0-shard-00-00.e9lk1.mongodb.net:27017: timed out (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('cluster0-shard-00-01.e9lk1.mongodb.net', 27017) server_type: Unknown, rtt: None, error=NetworkTimeout('cluster0-shard-00-01.e9lk1.mongodb.net:27017: timed out (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('cluster0-shard-00-02.e9lk1.mongodb.net', 27017) server_type: Unknown, rtt: None, error=NetworkTimeout('cluster0-shard-00-02.e9lk1.mongodb.net:27017: timed out (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-04-01 17:38:47,383 - __main__ - WARNING - License check failed: Error connecting to license server: cluster0-shard-00-02.e9lk1.mongodb.net:27017: timed out (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),cluster0-shard-00-01.e9lk1.mongodb.net:27017: timed out (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),cluster0-shard-00-00.e9lk1.mongodb.net:27017: timed out (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 67ebde39a086f849937bd021, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('cluster0-shard-00-00.e9lk1.mongodb.net', 27017) server_type: Unknown, rtt: None, error=NetworkTimeout('cluster0-shard-00-00.e9lk1.mongodb.net:27017: timed out (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('cluster0-shard-00-01.e9lk1.mongodb.net', 27017) server_type: Unknown, rtt: None, error=NetworkTimeout('cluster0-shard-00-01.e9lk1.mongodb.net:27017: timed out (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('cluster0-shard-00-02.e9lk1.mongodb.net', 27017) server_type: Unknown, rtt: None, error=NetworkTimeout('cluster0-shard-00-02.e9lk1.mongodb.net:27017: timed out (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-04-01 17:40:33,778 - __main__ - INFO - Valid license found. License is valid
+2025-04-01 17:40:34,610 - root - INFO - Successfully connected to settings database
+2025-04-01 17:40:36,314 - root - INFO - Loaded email settings for lovelyyasir05@gmail.com from database
+2025-04-01 17:40:36,717 - root - ERROR - Error in final_step: invalid command name ".!toplevel.!frame.!progressbar"
+2025-04-01 17:40:36,963 - root - INFO - Successfully connected to settings database
+2025-04-01 17:40:39,126 - root - INFO - Loaded email settings for lovelyyasir05@gmail.com from database
+2025-04-01 17:40:39,381 - root - INFO - Successfully connected to settings database
+2025-04-01 17:41:43,598 - root - INFO - Saving email config for lovelyyasir05@gmail.com using smtp.gmail.com
+2025-04-01 17:41:43,788 - root - INFO - Updated SMTP settings for hardware ID: 57185451966697
+2025-04-01 17:44:35,687 - __main__ - INFO - Valid license found. License is valid
+2025-04-01 17:44:36,930 - root - INFO - Successfully connected to settings database
+2025-04-01 17:44:39,008 - root - INFO - Loaded email settings for lovelyyasir05@gmail.com from database
+2025-04-01 17:44:40,308 - root - INFO - Successfully connected to settings database
+2025-04-01 17:44:42,242 - root - INFO - Loaded email settings for lovelyyasir05@gmail.com from database
+2025-04-01 17:44:44,546 - root - INFO - Successfully connected to settings database
+2025-04-01 18:05:25,891 - root - ERROR - Error checking hardware ID in database: All nameservers failed to answer the query _mongodb._tcp.cluster0.e9lk1.mongodb.net. IN SRV: Server Do53:192.168.43.1@53 answered The DNS operation timed out.; Server Do53:192.168.43.1@53 answered The DNS operation timed out.; Server Do53:192.168.43.1@53 answered The DNS operation timed out.; Server Do53:192.168.43.1@53 answered The DNS operation timed out.; Server Do53:192.168.43.1@53 answered [WinError 10051] A socket operation was attempted to an unreachable network
+2025-04-01 18:05:25,903 - __main__ - WARNING - License check failed: Error connecting to license server: All nameservers failed to answer the query _mongodb._tcp.cluster0.e9lk1.mongodb.net. IN SRV: Server Do53:192.168.43.1@53 answered The DNS operation timed out.; Server Do53:192.168.43.1@53 answered The DNS operation timed out.; Server Do53:192.168.43.1@53 answered The DNS operation timed out.; Server Do53:192.168.43.1@53 answered The DNS operation timed out.; Server Do53:192.168.43.1@53 answered [WinError 10051] A socket operation was attempted to an unreachable network
+2025-04-01 18:06:53,899 - __main__ - INFO - Valid license found. License is valid
+2025-04-01 18:06:54,481 - root - ERROR - Error initializing app: Calling Tcl from different apartment
+2025-04-01 18:06:54,664 - root - ERROR - Error in step3: invalid command name ".!toplevel.!frame.!progressbar"
+2025-04-01 18:06:56,672 - root - ERROR - Error in finish_loading: can't invoke "destroy" command: application has been destroyed
+2025-04-01 18:07:13,292 - __main__ - INFO - Valid license found. License is valid
+2025-04-01 18:07:13,682 - root - ERROR - Error initializing app: Calling Tcl from different apartment
+2025-04-01 18:07:13,867 - root - ERROR - Error in step3: invalid command name ".!toplevel.!frame.!progressbar"
+2025-04-01 18:07:18,318 - root - ERROR - Error in finish_loading: can't invoke "destroy" command: application has been destroyed
+2025-04-01 18:12:46,522 - __main__ - INFO - Valid license found. License is valid
+2025-04-01 18:13:17,362 - root - ERROR - Failed to connect to MongoDB: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 67ebe64e6132cb5b22856a86, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-04-01 18:13:17,365 - root - INFO - Applying theme: darkblue
+2025-04-01 18:13:17,368 - root - INFO - Theme darkblue applied successfully
+2025-04-01 18:19:13,103 - __main__ - INFO - Valid license found. License is valid
+2025-04-01 18:19:16,554 - root - ERROR - Failed to connect to MongoDB: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 3000.0ms, connectTimeoutMS: 3000.0ms), Timeout: 3.0s, Topology Description: <TopologyDescription id: 67ebe7d18c7c617a0054b531, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 3000.0ms, connectTimeoutMS: 3000.0ms)')>]>
+2025-04-01 18:19:16,556 - root - WARNING - Database connection failed. Operating in offline mode.
+2025-04-01 18:19:17,640 - root - ERROR - Failed to connect to MongoDB: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 3000.0ms, connectTimeoutMS: 3000.0ms), Timeout: 3.0s, Topology Description: <TopologyDescription id: 67ebe7d28c7c617a0054b532, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 3000.0ms, connectTimeoutMS: 3000.0ms)')>]>
+2025-04-01 18:19:17,644 - root - INFO - Applying theme: darkblue
+2025-04-01 18:19:17,645 - root - INFO - Theme darkblue applied successfully
+2025-04-01 18:19:20,753 - root - ERROR - Failed to connect to MongoDB: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 3000.0ms, connectTimeoutMS: 3000.0ms), Timeout: 3.0s, Topology Description: <TopologyDescription id: 67ebe7d58c7c617a0054b533, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 3000.0ms, connectTimeoutMS: 3000.0ms)')>]>
+2025-04-01 18:19:21,761 - root - INFO - Applying theme: darkblue
+2025-04-01 18:19:21,763 - root - INFO - Theme darkblue applied successfully
+2025-04-01 18:28:28,012 - __main__ - INFO - Valid license found. License is valid
+2025-04-01 18:28:31,607 - root - ERROR - Failed to connect to MongoDB: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 3000.0ms, connectTimeoutMS: 3000.0ms), Timeout: 3.0s, Topology Description: <TopologyDescription id: 67ebe9fc107a901b38154e12, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 3000.0ms, connectTimeoutMS: 3000.0ms)')>]>
+2025-04-01 18:28:31,608 - root - WARNING - Database connection failed. Operating in offline mode.
+2025-04-01 18:28:32,667 - root - ERROR - Failed to connect to MongoDB: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 3000.0ms, connectTimeoutMS: 3000.0ms), Timeout: 3.0s, Topology Description: <TopologyDescription id: 67ebe9fd107a901b38154e13, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 3000.0ms, connectTimeoutMS: 3000.0ms)')>]>
+2025-04-01 18:28:32,668 - root - INFO - Applying theme: darkblue
+2025-04-01 18:28:32,670 - root - INFO - Theme darkblue applied successfully
+2025-04-01 18:28:35,770 - root - ERROR - Failed to connect to MongoDB: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 3000.0ms, connectTimeoutMS: 3000.0ms), Timeout: 3.0s, Topology Description: <TopologyDescription id: 67ebea00107a901b38154e14, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 3000.0ms, connectTimeoutMS: 3000.0ms)')>]>
+2025-04-01 18:28:36,589 - root - INFO - Applying theme: darkblue
+2025-04-01 18:28:36,591 - root - INFO - Theme darkblue applied successfully
+2025-04-01 18:41:41,436 - __main__ - INFO - Valid license found. License is valid
+2025-04-01 18:41:43,388 - root - INFO - Applying theme: light
+2025-04-01 18:41:43,390 - root - INFO - Theme light applied successfully
+2025-04-01 18:41:45,349 - root - ERROR - Failed to connect to MongoDB: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 3000.0ms, connectTimeoutMS: 3000.0ms), Timeout: 3.0s, Topology Description: <TopologyDescription id: 67ebed162db1f1a4c8eb214a, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 3000.0ms, connectTimeoutMS: 3000.0ms)')>]>
+2025-04-01 18:41:45,351 - root - WARNING - Database connection failed. Operating in offline mode.
+2025-04-01 18:41:46,504 - root - ERROR - Failed to connect to MongoDB: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 3000.0ms, connectTimeoutMS: 3000.0ms), Timeout: 3.0s, Topology Description: <TopologyDescription id: 67ebed172db1f1a4c8eb214b, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 3000.0ms, connectTimeoutMS: 3000.0ms)')>]>
+2025-04-01 18:41:47,154 - root - INFO - Applying theme: darkblue
+2025-04-01 18:41:47,158 - root - INFO - Theme darkblue applied successfully
+2025-04-01 18:44:41,686 - __main__ - INFO - Valid license found. License is valid
+2025-04-01 18:44:43,113 - root - INFO - Applying theme: system
+2025-04-01 18:44:43,113 - root - INFO - Theme system applied successfully
+2025-04-01 18:44:45,066 - root - ERROR - Failed to connect to MongoDB: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 3000.0ms, connectTimeoutMS: 3000.0ms), Timeout: 3.0s, Topology Description: <TopologyDescription id: 67ebedca3dc33a854d9765ca, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 3000.0ms, connectTimeoutMS: 3000.0ms)')>]>
+2025-04-01 18:44:45,066 - root - WARNING - Database connection failed. Operating in offline mode.
+2025-04-01 18:44:46,209 - root - ERROR - Failed to connect to MongoDB: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 3000.0ms, connectTimeoutMS: 3000.0ms), Timeout: 3.0s, Topology Description: <TopologyDescription id: 67ebedcb3dc33a854d9765cb, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 3000.0ms, connectTimeoutMS: 3000.0ms)')>]>
+2025-04-01 18:44:46,697 - root - INFO - Applying theme: darkblue
+2025-04-01 18:44:46,697 - root - INFO - Theme darkblue applied successfully
+2025-04-02 06:45:08,006 - __main__ - INFO - Valid license found. License is valid
+2025-04-02 06:45:10,394 - root - INFO - Applying theme: system
+2025-04-02 06:45:10,406 - root - INFO - Theme system applied successfully
+2025-04-02 06:45:12,373 - root - ERROR - Failed to connect to MongoDB: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 3000.0ms, connectTimeoutMS: 3000.0ms), Timeout: 3.0s, Topology Description: <TopologyDescription id: 67ec96a5c4ff459e294ad377, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 3000.0ms, connectTimeoutMS: 3000.0ms)')>]>
+2025-04-02 06:45:12,373 - root - WARNING - Database connection failed. Operating in offline mode.
+2025-04-02 06:45:13,677 - root - ERROR - Failed to connect to MongoDB: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 3000.0ms, connectTimeoutMS: 3000.0ms), Timeout: 3.0s, Topology Description: <TopologyDescription id: 67ec96a6c4ff459e294ad378, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 3000.0ms, connectTimeoutMS: 3000.0ms)')>]>
+2025-04-02 06:45:15,410 - root - INFO - Applying theme: darkblue
+2025-04-02 06:45:15,414 - root - INFO - Theme darkblue applied successfully
+2025-04-02 06:55:29,118 - __main__ - INFO - Valid license found. License is valid
+2025-04-02 06:55:30,619 - root - INFO - Applying theme: light
+2025-04-02 06:55:30,619 - root - INFO - Theme light applied successfully
+2025-04-02 06:55:32,531 - root - ERROR - Failed to connect to MongoDB: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 3000.0ms, connectTimeoutMS: 3000.0ms), Timeout: 3.0s, Topology Description: <TopologyDescription id: 67ec9911d279680e9a83828c, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 3000.0ms, connectTimeoutMS: 3000.0ms)')>]>
+2025-04-02 06:55:32,531 - root - WARNING - Database connection failed. Operating in offline mode.
+2025-04-02 06:55:33,756 - root - ERROR - Failed to connect to MongoDB: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 3000.0ms, connectTimeoutMS: 3000.0ms), Timeout: 3.0s, Topology Description: <TopologyDescription id: 67ec9912d279680e9a83828d, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 3000.0ms, connectTimeoutMS: 3000.0ms)')>]>
+2025-04-02 06:55:34,835 - root - INFO - Applying theme: darkblue
+2025-04-02 06:55:34,837 - root - INFO - Theme darkblue applied successfully
+2025-04-02 07:21:36,018 - root - ERROR - Error checking hardware ID in database: The resolution lifetime expired after 21.161 seconds: Server Do53:192.168.43.1@53 answered The DNS operation timed out.; Server Do53:192.168.43.1@53 answered The DNS operation timed out.; Server Do53:192.168.43.1@53 answered The DNS operation timed out.; Server Do53:192.168.43.1@53 answered The DNS operation timed out.; Server Do53:192.168.43.1@53 answered The DNS operation timed out.; Server Do53:192.168.43.1@53 answered The DNS operation timed out.; Server Do53:192.168.43.1@53 answered The DNS operation timed out.
+2025-04-02 07:21:36,021 - __main__ - WARNING - License check failed: Error connecting to license server: The resolution lifetime expired after 21.161 seconds: Server Do53:192.168.43.1@53 answered The DNS operation timed out.; Server Do53:192.168.43.1@53 answered The DNS operation timed out.; Server Do53:192.168.43.1@53 answered The DNS operation timed out.; Server Do53:192.168.43.1@53 answered The DNS operation timed out.; Server Do53:192.168.43.1@53 answered The DNS operation timed out.; Server Do53:192.168.43.1@53 answered The DNS operation timed out.; Server Do53:192.168.43.1@53 answered The DNS operation timed out.
+2025-04-02 07:22:05,773 - __main__ - INFO - Valid license found. License is valid
+2025-04-02 07:22:07,264 - root - INFO - Applying theme: light
+2025-04-02 07:22:07,264 - root - INFO - Theme light applied successfully
+2025-04-02 07:22:09,207 - root - ERROR - Failed to connect to MongoDB: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 3000.0ms, connectTimeoutMS: 3000.0ms), Timeout: 3.0s, Topology Description: <TopologyDescription id: 67ec9f4ef09548414bf284c5, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 3000.0ms, connectTimeoutMS: 3000.0ms)')>]>
+2025-04-02 07:22:09,207 - root - WARNING - Database connection failed. Operating in offline mode.
+2025-04-02 07:22:10,413 - root - ERROR - Failed to connect to MongoDB: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 3000.0ms, connectTimeoutMS: 3000.0ms), Timeout: 3.0s, Topology Description: <TopologyDescription id: 67ec9f4ff09548414bf284c6, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 3000.0ms, connectTimeoutMS: 3000.0ms)')>]>
+2025-04-02 07:22:10,889 - root - INFO - Applying theme: darkblue
+2025-04-02 07:22:10,889 - root - INFO - Theme darkblue applied successfully
+2025-04-02 07:32:53,845 - __main__ - INFO - Valid license found. License is valid
+2025-04-02 07:32:55,620 - root - INFO - Applying theme: light
+2025-04-02 07:32:55,625 - root - INFO - Theme light applied successfully
+2025-04-02 07:32:57,598 - root - ERROR - Failed to connect to MongoDB: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 3000.0ms, connectTimeoutMS: 3000.0ms), Timeout: 3.0s, Topology Description: <TopologyDescription id: 67eca1d6f5824056381a4ce8, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 3000.0ms, connectTimeoutMS: 3000.0ms)')>]>
+2025-04-02 07:32:57,616 - root - WARNING - Database connection failed. Operating in offline mode.
+2025-04-02 07:32:58,924 - root - ERROR - Failed to connect to MongoDB: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 3000.0ms, connectTimeoutMS: 3000.0ms), Timeout: 3.0s, Topology Description: <TopologyDescription id: 67eca1d7f5824056381a4ce9, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 3000.0ms, connectTimeoutMS: 3000.0ms)')>]>
+2025-04-02 07:32:59,657 - root - INFO - Applying theme: darkblue
+2025-04-02 07:32:59,669 - root - INFO - Theme darkblue applied successfully
+2025-04-02 07:35:11,487 - __main__ - INFO - Valid license found. License is valid
+2025-04-02 07:35:13,004 - root - INFO - Applying theme: light
+2025-04-02 07:35:13,005 - root - INFO - Theme light applied successfully
+2025-04-02 07:35:14,996 - root - ERROR - Failed to connect to MongoDB: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 3000.0ms, connectTimeoutMS: 3000.0ms), Timeout: 3.0s, Topology Description: <TopologyDescription id: 67eca25fa635b7a102f77b61, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 3000.0ms, connectTimeoutMS: 3000.0ms)')>]>
+2025-04-02 07:35:14,999 - root - WARNING - Database connection failed. Operating in offline mode.
+2025-04-02 07:35:16,184 - root - ERROR - Failed to connect to MongoDB: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 3000.0ms, connectTimeoutMS: 3000.0ms), Timeout: 3.0s, Topology Description: <TopologyDescription id: 67eca261a635b7a102f77b62, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 3000.0ms, connectTimeoutMS: 3000.0ms)')>]>
+2025-04-02 07:35:16,721 - root - INFO - Applying theme: darkblue
+2025-04-02 07:35:16,726 - root - INFO - Theme darkblue applied successfully
+2025-04-02 07:50:20,921 - __main__ - INFO - Valid license found. License is valid
+2025-04-02 07:50:22,987 - root - INFO - Applying theme: light
+2025-04-02 07:50:22,997 - root - INFO - Theme light applied successfully
+2025-04-02 07:50:27,211 - root - ERROR - MongoDB server selection timeout. Please check your internet connection.
+2025-04-02 07:50:27,211 - root - WARNING - Failed to connect to MongoDB: MongoDB server selection timeout. Please check your internet connection.
+2025-04-02 07:50:27,211 - root - WARNING - Database connection failed. Operating in offline mode.
+2025-04-02 07:50:33,193 - root - ERROR - MongoDB server selection timeout. Please check your internet connection.
+2025-04-02 07:50:33,193 - root - WARNING - Failed to connect to MongoDB: MongoDB server selection timeout. Please check your internet connection.
+2025-04-02 07:50:33,887 - root - INFO - Applying theme: darkblue
+2025-04-02 07:50:33,903 - root - INFO - Theme darkblue applied successfully
+2025-04-02 08:00:46,813 - __main__ - INFO - Valid license found. License is valid
+2025-04-02 08:00:48,453 - root - INFO - Applying theme: light
+2025-04-02 08:00:48,456 - root - INFO - Theme light applied successfully
+2025-04-02 08:00:55,992 - root - INFO - MongoDB connection established successfully
+2025-04-02 08:00:55,992 - root - INFO - Connected to MongoDB successfully
+2025-04-02 08:00:56,762 - root - INFO - MongoDB connection established successfully
+2025-04-02 08:00:56,763 - root - INFO - Connected to MongoDB successfully
+2025-04-02 08:00:57,121 - root - INFO - Applying theme: light
+2025-04-02 08:00:57,124 - root - INFO - Theme light applied successfully
+2025-04-02 08:00:57,124 - root - INFO - Applying font size: medium
+2025-04-02 08:00:57,124 - root - INFO - Font size medium applied successfully
+2025-04-02 08:01:07,422 - root - INFO - MongoDB connection established successfully
+2025-04-02 08:01:07,423 - root - INFO - Connected to MongoDB successfully
+2025-04-02 08:02:03,667 - root - ERROR - Error checking hardware ID in database: The resolution lifetime expired after 21.139 seconds: Server Do53:192.168.43.1@53 answered The DNS operation timed out.; Server Do53:192.168.43.1@53 answered The DNS operation timed out.; Server Do53:192.168.43.1@53 answered The DNS operation timed out.; Server Do53:192.168.43.1@53 answered The DNS operation timed out.; Server Do53:192.168.43.1@53 answered The DNS operation timed out.; Server Do53:192.168.43.1@53 answered The DNS operation timed out.; Server Do53:192.168.43.1@53 answered The DNS operation timed out.
+2025-04-02 08:02:03,667 - __main__ - WARNING - License check failed: Error connecting to license server: The resolution lifetime expired after 21.139 seconds: Server Do53:192.168.43.1@53 answered The DNS operation timed out.; Server Do53:192.168.43.1@53 answered The DNS operation timed out.; Server Do53:192.168.43.1@53 answered The DNS operation timed out.; Server Do53:192.168.43.1@53 answered The DNS operation timed out.; Server Do53:192.168.43.1@53 answered The DNS operation timed out.; Server Do53:192.168.43.1@53 answered The DNS operation timed out.; Server Do53:192.168.43.1@53 answered The DNS operation timed out.
+2025-04-02 08:03:43,757 - root - ERROR - Error checking hardware ID in database: The resolution lifetime expired after 21.153 seconds: Server Do53:192.168.43.1@53 answered The DNS operation timed out.; Server Do53:192.168.43.1@53 answered The DNS operation timed out.; Server Do53:192.168.43.1@53 answered The DNS operation timed out.; Server Do53:192.168.43.1@53 answered The DNS operation timed out.; Server Do53:192.168.43.1@53 answered The DNS operation timed out.; Server Do53:192.168.43.1@53 answered The DNS operation timed out.; Server Do53:192.168.43.1@53 answered The DNS operation timed out.
+2025-04-02 08:03:43,757 - __main__ - WARNING - License check failed: Error connecting to license server: The resolution lifetime expired after 21.153 seconds: Server Do53:192.168.43.1@53 answered The DNS operation timed out.; Server Do53:192.168.43.1@53 answered The DNS operation timed out.; Server Do53:192.168.43.1@53 answered The DNS operation timed out.; Server Do53:192.168.43.1@53 answered The DNS operation timed out.; Server Do53:192.168.43.1@53 answered The DNS operation timed out.; Server Do53:192.168.43.1@53 answered The DNS operation timed out.; Server Do53:192.168.43.1@53 answered The DNS operation timed out.
+2025-04-02 08:04:15,079 - __main__ - INFO - Valid license found. License is valid
+2025-04-02 08:04:16,667 - root - INFO - Applying theme: dark
+2025-04-02 08:04:16,667 - root - INFO - Theme dark applied successfully
+2025-04-02 08:04:18,047 - root - INFO - MongoDB connection established successfully
+2025-04-02 08:04:18,051 - root - INFO - Connected to MongoDB successfully
+2025-04-02 08:04:27,191 - root - INFO - MongoDB connection established successfully
+2025-04-02 08:04:27,191 - root - INFO - Connected to MongoDB successfully
+2025-04-02 08:04:27,516 - root - INFO - Applying theme: dark
+2025-04-02 08:04:27,526 - root - INFO - Theme dark applied successfully
+2025-04-02 08:04:27,527 - root - INFO - Applying font size: medium
+2025-04-02 08:04:27,527 - root - INFO - Font size medium applied successfully
+2025-04-02 08:04:32,732 - root - ERROR - MongoDB server selection timeout. Please check your internet connection.
+2025-04-02 08:04:32,740 - root - WARNING - Failed to connect to MongoDB: MongoDB server selection timeout. Please check your internet connection.
+2025-04-02 15:05:59,633 - __main__ - INFO - Valid license found. License is valid
+2025-04-02 15:06:01,852 - root - INFO - Applying theme: light
+2025-04-02 15:06:01,852 - root - INFO - Theme light applied successfully
+2025-04-02 15:06:06,194 - root - ERROR - MongoDB server selection timeout. Please check your internet connection.
+2025-04-02 15:06:06,199 - root - WARNING - Failed to connect to MongoDB: MongoDB server selection timeout. Please check your internet connection.
+2025-04-02 15:06:06,200 - root - WARNING - Database connection failed. Operating in offline mode.
+2025-04-02 15:06:07,478 - root - ERROR - MongoDB server selection timeout. Please check your internet connection.
+2025-04-02 15:06:07,479 - root - WARNING - Failed to connect to MongoDB: MongoDB server selection timeout. Please check your internet connection.
+2025-04-02 15:06:07,937 - root - INFO - Applying theme: darkblue
+2025-04-02 15:06:07,943 - root - INFO - Theme darkblue applied successfully
+2025-04-02 15:08:04,242 - __main__ - INFO - Valid license found. License is valid
+2025-04-02 15:08:05,680 - root - INFO - Applying theme: light
+2025-04-02 15:08:05,680 - root - INFO - Theme light applied successfully
+2025-04-02 15:08:10,048 - root - ERROR - MongoDB server selection timeout. Please check your internet connection.
+2025-04-02 15:08:10,048 - root - WARNING - Failed to connect to MongoDB: MongoDB server selection timeout. Please check your internet connection.
+2025-04-02 15:08:10,048 - root - WARNING - Database connection failed. Operating in offline mode.
+2025-04-02 15:08:11,080 - root - ERROR - MongoDB server selection timeout. Please check your internet connection.
+2025-04-02 15:08:11,080 - root - WARNING - Failed to connect to MongoDB: MongoDB server selection timeout. Please check your internet connection.
+2025-04-02 15:08:11,380 - root - INFO - Applying theme: darkblue
+2025-04-02 15:08:11,393 - root - INFO - Theme darkblue applied successfully
+2025-04-02 15:08:55,003 - __main__ - INFO - Valid license found. License is valid
+2025-04-02 15:08:56,659 - root - INFO - Applying theme: system
+2025-04-02 15:08:56,662 - root - INFO - Theme system applied successfully
+2025-04-02 15:09:01,084 - root - ERROR - MongoDB server selection timeout. Please check your internet connection.
+2025-04-02 15:09:01,084 - root - WARNING - Failed to connect to MongoDB: MongoDB server selection timeout. Please check your internet connection.
+2025-04-02 15:09:01,084 - root - WARNING - Database connection failed. Operating in offline mode.
+2025-04-02 15:09:02,102 - root - ERROR - MongoDB server selection timeout. Please check your internet connection.
+2025-04-02 15:09:02,104 - root - WARNING - Failed to connect to MongoDB: MongoDB server selection timeout. Please check your internet connection.
+2025-04-02 15:09:02,905 - root - INFO - Applying theme: darkblue
+2025-04-02 15:09:02,918 - root - INFO - Theme darkblue applied successfully
